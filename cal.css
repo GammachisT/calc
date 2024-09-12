@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cascadia Code", sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(34, 192, 195, 0.644);
+    background:linear-gradient(0deg, rgba(34, 192, 195, 1) 0%, rgba(253, 187, 45, 0.705) 100%);
+}
+
+.container {
+    height: 430px;
+    width: 320px;
+    background: #c16e08;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 20px;
+    backdrop-filter: blur(50px);
+}
+
+.container .display #screen {
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    text-align: right;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: #bae555;
+    box-shadow: inset 8px 8px 8px #69849e,
+                inset -8px 8px 8px #b2d8a6;
+    
+}
+
+.container .btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container .btns .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.container .btns .row button {
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #e0b989;
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.1);
+    transition: scale 0.3s ease;
+}
+
+.container .btns .row #eval {
+    width: 80px;
+}
+
+.container .btns .row #plus {
+    width: 80px;
+}
+
+.btns .row button:hover
+{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 1),
+                        2px -2px 5px #fff;
+                        background: #fff;
+}
+
+#eval
+{
+    background: #33ccff;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: inset 2px 2px 5px #b5bbbd,
+                        2px -2px 5px #e2e6e7;
+}
+
+#eval:hover
+{
+    box-shadow: inset 2px 2px 5px #d1dbde,
+                        2px -2px 5px #879ba2;
+                        background: #2f25f1;
+}
+
+#ac
+{
+    background: #33cc33;
+    color: #fff;
+}
+
+#ac:hover
+{
+    box-shadow: inset 2px 2px 5px #2eb82e,
+                        2px -2px 5px #33cc33;
+                        background: #065319;
+}
+
+#ce
+{
+    background: #ff3399;
+    color: #fff;
+}
+
+#ce:hover
+{
+    box-shadow: inset 2px 2px 5px #e60073,
+                        2px -2px 5px #ff3399;
+                        background: #d50f0f;
+}
+
+footer {
+   text-align: center;
+   padding: 20px;
+   margin-top: auto;
+}
