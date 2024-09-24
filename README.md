@@ -4,8 +4,8 @@
 The Calculator App is a simple yet powerful web-based calculator that allows users to perform basic arithmetic operations. This project demonstrates the use of HTML, CSS, and JavaScript to create an interactive user interface and implement functional logic.
 
 **Deployed Site:** [View the Calculator App]('''https://gammachist.github.io/calculator/''')  
-**Final Project Blog Article:** [Read the Blog](https://www.linkedin.com/public-profile/settings)  
-**Author(s):** [Gemechu Tesfaye](https://www.linkedin.com/public-profile/settings)
+**Final Project Blog Article:** [Read the Blog](https://www.linkedin.com/posts/gammachut_calculator-app-calculator-app-screenshot-activity-7242218366852116480-7noU?utm_source=share&utm_medium=member_android)  
+**Author(s):** [Gemechu Tesfaye](https://www.linkedin.com/in/gammachut)
 
 ## Installation
 To install the Calculator App locally, follow these steps:
