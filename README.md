@@ -1,11 +1,5 @@
 # Build portfolio project
 ## Project name: Calculator App
-* Author: 
-https://www.linkedin.com/public-profile/settings
-## Installation
-Here’s a template for a complete `README.md` for a calculator app project:
-
-```
 ## Introduction
 The Calculator App is a simple yet powerful web-based calculator that allows users to perform basic arithmetic operations. This project demonstrates the use of HTML, CSS, and JavaScript to create an interactive user interface and implement functional logic.
 
